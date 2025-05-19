@@ -1,0 +1,25 @@
+<!-- Css style tag is added within head tag -->
+<!-- Js script tag is added within body tag -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> People Count </title>
+    <link rel="Stylesheet" href="people.css">
+    </head>
+    <body id = "body">
+        <div id="box">
+           <h1> Lieometer (lies told)</h1>
+           <h2 id="countP"> 0 </h2>
+           <button id="increment" onclick="increment()"> INCREMENT </button>
+           <button id="save" onclick="save()"> SAVE </button>
+
+           <p id="prev"> Previous Entries : </p>
+
+        </div>
+        <script src="First.js"> </script>
+        <!-- script tag needs to be placed at the end of the body tag -->
+        <!-- because js is being applied after. Chronology matters!(remember the error you got.) -->
+    </body>
+</html>
